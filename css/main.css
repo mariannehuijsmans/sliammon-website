@@ -6,7 +6,7 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-#wrapper {
+#jumbotron {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 5%;
@@ -45,12 +45,14 @@ h1 {
   font-size: 1.65em;
   font-weight: normal;
   line-height: 0.8em;
+  text-shadow: 2px 2px #ff0000;
 }
 
 h2 {
   font-size: .75em;
   font-weight: normal;
   margin: -5px 0 0;
+  text-shadow: 2px 2px #ff0000;
 }
 
 h3 {
@@ -90,31 +92,6 @@ nav a {
 }
 
 /*********************************
-PAGE PORTFOLIO
-**********************************/
-
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7; 
-}
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7; 
-}
-
-/*********************************
 Wordlist
 **********************************/
 #wordlist {
@@ -126,7 +103,6 @@ Wordlist
   margin: 0 0 0 30px;
   border-radius: 10%;
 }
-
 
 .iframe {
   width: 400px;
@@ -188,6 +164,7 @@ COLORS
 body {
   background-color: #fff;
   color: #000;
+  background-image: url("icsnl.jpg");
 }
 
 /* red header */
@@ -195,6 +172,7 @@ body {
 header {
   background: #880000;
   border-color: #660000;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 /* nav background mobile*/
