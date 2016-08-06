@@ -45,12 +45,14 @@ h1 {
   font-size: 1.65em;
   font-weight: normal;
   line-height: 0.8em;
+  text-shadow: 2px 2px #ff0000;
 }
 
 h2 {
   font-size: .75em;
   font-weight: normal;
   margin: -5px 0 0;
+  text-shadow: 2px 2px #ff0000;
 }
 
 h3 {
@@ -195,6 +197,7 @@ body {
 header {
   background: #880000;
   border-color: #660000;
+  box-shadow: 10px 10px 5px #888888;
 }
 
 /* nav background mobile*/
