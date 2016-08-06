@@ -109,10 +109,9 @@ Wordlist
 }
 
 .iframe {
-  width: 400px;
+  width: 100%;
   height: 500px;  
   margin: 0px auto 30px;
-  border-radius: 15%;
 }
 
 /*********************************
