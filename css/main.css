@@ -7,13 +7,8 @@ body {
 }
 
 #jumbotron {
-  max-width: 900px;
   margin: 0 auto;
-  padding: 0 5%;
-}
-
-#container {
-  background-image: 'img/icsnl.jpg';
+  padding: 5% 5%;
 }
 
 a {
@@ -98,14 +93,11 @@ nav a {
 /*********************************
 Wordlist
 **********************************/
-#wordlist {
-    list-style: none;
-}
-.profile-pic {
-  display: block;
-  max-width:400px;
-  margin: 0 0 0 30px;
-  border-radius: 10%;
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5% 0 0 0;
 }
 
 .iframe {
