@@ -98,7 +98,7 @@ Wordlist
     height: 100%;
     margin: 0 auto;
     padding: 5% 0 0 0;
-    background: url('img/icsnl.jpg') no-repeat center top;
+    background: url('img/icsnl.jpg');
 }
 
 .iframe {
