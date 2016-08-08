@@ -160,7 +160,7 @@ COLORS
 body {
   background-color: #fff;
   color: #000;
-  background-image: url(/img/icsnl.jpg);
+  background-image: url('../img/icsnl.jpg');
 }
 
 /* red header */
